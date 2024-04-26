@@ -587,3 +587,67 @@ header > div:first-child > nav > button {
 .footer div:nth-of-type(2) > a:hover {
   color: rgb(33, 110, 230);
 }
+
+/* breaclpoints  */
+@media screen and (max-width: 1024px) and (min-width: 900px) {
+  header {
+    height: 1000px;
+  }
+  header > div:first-child {
+    width: 100%;
+  }
+  header > div:first-child > nav {
+    width: 50%;
+  }
+  .container {
+    width: 90%;
+  }
+  .container-info_container-buttons button:first-child {
+    width: 50%;
+  }
+  .container-info_container-buttons button:nth-of-type(2) {
+    width: 40%;
+  }
+  .section-container_container-info {
+    width: 45%;
+  }
+  .section-container-product {
+    padding: 30px;
+  }
+  .section-container-product_container-cards {
+    width: 95%;
+  }
+  .card {
+    width: 70%;
+    border: 2px solid;
+  }
+  .section-container-roadmap {
+    padding: 5px;
+  }
+  .dot > p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .dot:nth-child(1) h2,
+  .dot:nth-child(1) p {
+    width: 300px;
+  }
+  .dot:nth-child(2) h2,
+  .dot:nth-child(2) p {
+    width: 300px;
+    margin-left: -310px;
+  }
+  .dot:nth-child(3) h2,
+  .dot:nth-child(3) p {
+    width: 300px;
+  }
+  .dot:nth-child(4) h2,
+  .dot:nth-child(4) p {
+    width: 300px;
+    margin-left: -310px;
+  }
+  .dot:nth-child(5) h2,
+  .dot:nth-child(5) p {
+    width: 300px;
+  }
+}
