@@ -845,7 +845,6 @@ header > div:first-child > nav > button {
   header > div:first-child > nav {
     width: 100%;
     margin-left: 15px;
-    flex-direction: column;
     gap: 20px;
   }
 
