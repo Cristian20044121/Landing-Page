@@ -838,13 +838,15 @@ header > div:first-child > nav > button {
 
 @media screen and (max-width: 700px) and (min-width: 400px) {
   header {
-    height: 1200px;
-    padding: 0;
+    height: 1500px;
+    padding: 50px;
   }
 
   header > div:first-child > nav {
-    width: 90%;
+    width: 100%;
     margin-left: 15px;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .container {
@@ -858,20 +860,22 @@ header > div:first-child > nav > button {
     font-size: 3rem;
   }
   .container-image > img {
-    width: 200px;
-    height: 200px;
+    width: 115px;
+    height: 115px;
   }
 
   .container-info_container-buttons {
-    width: 420px;
+    width: 350px;
   }
 
   .container-info_container-buttons button:first-child {
-    width: 100%;
+    width: 60%;
+    font-size: 17px;
   }
 
   .container-info_container-buttons button:nth-of-type(2) {
     width: 60%;
+    font-size: 17px;
   }
 
   .section-container-built {
@@ -928,29 +932,34 @@ header > div:first-child > nav > button {
 
   .dot:nth-child(1) h2,
   .dot:nth-child(1) p {
-    width: 200px;
+    width: 140px;
+    line-height: 16px;
   }
 
   .dot:nth-child(2) h2,
   .dot:nth-child(2) p {
-    width: 200px;
-    margin-left: -220px;
+    width: 140px;
+    margin-left: -160px;
+    line-height: 16px;
   }
 
   .dot:nth-child(3) h2,
   .dot:nth-child(3) p {
-    width: 200px;
+    width: 140px;
+    line-height: 16px;
   }
 
   .dot:nth-child(4) h2,
   .dot:nth-child(4) p {
-    width: 200px;
-    margin-left: -220px;
+    width: 140px;
+    margin-left: -160px;
+    line-height: 16px;
   }
 
   .dot:nth-child(5) h2,
   .dot:nth-child(5) p {
-    width: 200px;
+    width: 140px;
+    line-height: 16px;
   }
   .section-container-pricing > h2 {
     font-size: 2rem;
@@ -978,7 +987,7 @@ header > div:first-child > nav > button {
 @media screen and (max-width: 400px) and (min-width: 120px) {
   header {
     height: 1200px;
-    padding: 0;
+    padding: 20px;
   }
 
   header > div:first-child > nav {
@@ -997,20 +1006,22 @@ header > div:first-child > nav > button {
     font-size: 3rem;
   }
   .container-image > img {
-    width: 200px;
-    height: 200px;
+    width: 115px;
+    height: 115px;
   }
 
   .container-info_container-buttons {
-    width: 420px;
+    width: 350px;
   }
 
   .container-info_container-buttons button:first-child {
-    width: 100%;
+    width: 60%;
+    font-size: 17px;
   }
 
   .container-info_container-buttons button:nth-of-type(2) {
     width: 60%;
+    font-size: 17px;
   }
 
   .section-container-built {
